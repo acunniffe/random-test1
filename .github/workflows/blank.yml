@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "      ::warning file=/example.yaml,line=1::check%3A operation must have an operation id%0Aerror%3A operation id is missing%0Adocs%3A https%3A//github.com/snyk/sweater-comb/blob/main/docs/standards.md#operation-ids"
+        run: echo "      ::warning file=/example.yaml,line=1::check operation must have an operation id"
