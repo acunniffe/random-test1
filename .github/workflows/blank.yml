@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "::warning file=ReadMe.md,line=1,col=1,endColumn=7::Missing semicolon"
+        run: echo "::warning file=README.md,line=1,col=1,endColumn=7::Missing semicolon"
