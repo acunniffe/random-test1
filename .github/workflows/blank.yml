@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo "      ::error file=/README.md,line=1,title=operation id is missing::check operation must have an operation id%0Adocs https%3A//github.com/snyk/sweater-comb/blob/main/docs/standards.md#operation-ids"
+        run: echo "      ::error file=/README.md,line=1,title=\"operation id is missing\"::check | operation must have an operation id%0Adocumentation | https//github.com/snyk/sweater-comb/blob/main/docs/standards.md#operation-ids"
